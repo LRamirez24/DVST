@@ -550,14 +550,18 @@ ul{
 
 .footer-text{
   padding-bottom: 1.6rem;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .learn-section{
   font-family: 'Open Sans', sans-serif;
+ 
 }
 
 .learn-section li {
   padding-bottom: 16px;
+  color: #bfbfbf;
 }
 
 
@@ -568,6 +572,12 @@ ul{
 
 .footer-text1{
   padding-top: 1.6rem;
+  color: #bfbfbf;
+
+}
+
+.footer-text2{
+  color: #bfbfbf;
 }
 
 .button-footer{
@@ -592,6 +602,10 @@ hr{
   justify-content: space-between;
   /* align-items: center; */
   margin-top: 80px;
+}
+
+.footer-logo{
+  padding-top: 0.7em;
 }
 
 
@@ -698,7 +712,7 @@ hr{
       
    }
    .footer-section2{
-    align-items: center;
+    align-items: baseline;
    }
    .footer-text{
     padding-top: 40px;
@@ -731,6 +745,7 @@ hr{
    display: flex;
    justify-content: center;
    padding-bottom: 24px;
+  
       
    }
    .footer-section2{

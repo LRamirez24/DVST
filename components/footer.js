@@ -98,7 +98,7 @@ All rights reserved</p>
     </div>
     <div>
     <p className='footer-text'>Get in Touch</p>
-    <p>info@dvst.io</p>
+    <p className='footer-text2'>info@dvst.io</p>
       
       </div>
       <div>
@@ -112,7 +112,7 @@ All rights reserved</p>
       </div>
       <div className='newsletter'>
       <p  className='footer-text'>Our Newsletter</p>
-      <p>Subscribe to our newsletter to get our news & deals delivered to you.</p>
+      <p className='footer-text2'>Subscribe to our newsletter to get<br></br> our news & deals delivered to you.</p>
       </div>
         </div>
 
