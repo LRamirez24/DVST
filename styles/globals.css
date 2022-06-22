@@ -19,7 +19,11 @@ body {
   /* height: 100vh; */
   color: #F2F2F2;
   /* background-image: url('../public/images/back.jpg'); */
-  background-color: #262626;
+  background: rgb(42,0,103);
+  background: -moz-linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a0067",endColorstr="#000000",GradientType=1);
   overflow-x: hidden;
 
   width: 100%;
@@ -82,7 +86,8 @@ header {
   padding: 0px 80px;
   min-height: 10vh;
   background-color: transparent;
-  z-index: 100;
+  z-index: 1;
+  
   /* box-shadow: 0 1px 8px #ddd; */
 }
 
@@ -92,8 +97,9 @@ header {
 
 header li {
   list-style: none;
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0 20px;
+  z-index: 1;
 }
 
 header a {
@@ -101,6 +107,7 @@ header a {
   color: white;
   transition: all 0.3s ease 0s;
   font-weight: bold;
+  z-index: 1;
 }
 
 header a:hover {
@@ -147,7 +154,10 @@ margin-top: 24px;
   /* max-width: 700px; */
   justify-content: center;
   align-items: center;
-  margin-top: -16rem;
+  margin-top: -14rem;
+  z-index: -1;
+  transform: rotate(2deg);
+  position: absolute;
   
   
   
@@ -194,8 +204,8 @@ margin-top: 24px;
     
     .button-main2:hover{
       color: #F2F2F2;
-      background-color: #ca70e8;
-      border: none;
+      background-color: #0D0D0D;
+      border: 1px solid #0D0D0D;
     }
 
 

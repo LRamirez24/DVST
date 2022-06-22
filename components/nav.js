@@ -24,7 +24,8 @@ export default function Nav() {
     animate="visible"
     variants={variants}>
         <header>
-        <Image
+          <div className='logo'>
+          <Image
         src={logo}
         alt="Picture of the Logo"
         // width={500} automatically provided
@@ -32,6 +33,7 @@ export default function Nav() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
+          </div>
         <nav>
             <ul>
                 <li><a href="#">Tokenomics</a></li>

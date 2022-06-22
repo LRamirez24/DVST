@@ -10,8 +10,9 @@ import number from '../public/images/number2.svg'
 import number2 from '../public/images/number3.svg'
 import number3 from '../public/images/number4.svg'
 import man from '../public/images/robot2.svg'
-
 import { motion } from "framer-motion"
+import { gsap } from "gsap";
+import Link from 'next/link'
 
 export default function Home() {
   const variants = {

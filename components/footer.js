@@ -6,6 +6,7 @@ import twitter from '../public/images/twitter.svg'
 import youtube from '../public/images/youtube.svg'
 import instagram from '../public/images/instagram.svg'
 import { motion } from "framer-motion"
+import Link from 'next/link'
 
 export default function Footer() {
   const variants = {
@@ -76,22 +77,35 @@ All rights reserved</p>
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       /></li>
-       <li>   <Image
+          <li>   
+        <a target="_blank" href="https://www.youtube.com/" rel="noopener noreferrer">
+        <Image
         src={youtube}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      /></li>
-        <li>   <Image
+      />
+      </a>
+          
+          
+        </li>
+        
+        <li>   
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <Image
         src={instagram}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      /></li>
+      />
+      </a>
+          
+          
+        </li>
       
 </ul>
 
