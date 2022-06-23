@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import logo from '../public/images/logo-mid.svg'
 import { motion } from "framer-motion"
+import Link from 'next/link'
 
 export default function Nav() {
   const variants = {
@@ -25,7 +26,9 @@ export default function Nav() {
     variants={variants}>
         <header>
           <div className='logo'>
-          <Image
+          <Link href="/">
+            <a> 
+            <Image
         src={logo}
         alt="Picture of the Logo"
         // width={500} automatically provided
@@ -33,7 +36,12 @@ export default function Nav() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
+            </a>
+            </Link>
+     
           </div>
+          
+          
         <nav>
             <ul>
                 <li><a href="#">Tokenomics</a></li>

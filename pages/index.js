@@ -68,6 +68,7 @@ export default function Home() {
         
       
       <Nav />
+     
       <section className="jumbo">
       
       <motion.div
@@ -76,7 +77,7 @@ export default function Home() {
     variants={variants}>  
 
       <div className='main-text'>
-        <h1>Quantum<br></br> <span className='title-color'>Finance</span></h1>
+        <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
         <p>
         The first decentralized, multi-chain, post-quantum secure<br></br>
         exchange ecosystem.
@@ -105,19 +106,17 @@ export default function Home() {
 <Image className='robot'
         src={man}
         alt="Picture of the Robot"
-        width={700} 
-        height={1000} 
+        // width={700} 
+        // height={1000} 
         
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
+      
 </div>
-  
-
-
-
         </motion.div>
       </section>
+      
       <section>
       <motion.div
     initial="hidden"

@@ -53,30 +53,53 @@ export default function Footer() {
 <p className='footer-text1'>© 2022 DVST
 All rights reserved</p>
 <ul className='social-icons'>
-  <li>   <Image
+
+        <li>   
+        <a target="_blank" href="https://www.discord.com/" rel="noopener noreferrer">
+        <Image
         src={discord}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      /></li>
-       <li>   <Image
+      />
+      </a>
+          
+          
+        </li>
+
+          <li>   
+        <a target="_blank" href="https://www.github.com/" rel="noopener noreferrer">
+        <Image
         src={github}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      /></li>
-       <li>   <Image
+      />
+      </a>
+          
+          
+        </li>
+
+
+          <li>   
+        <a target="_blank" href="https://www.twitter.com/" rel="noopener noreferrer">
+        <Image
         src={twitter}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
-      /></li>
+      />
+      </a>
+          
+          
+        </li>
+
           <li>   
         <a target="_blank" href="https://www.youtube.com/" rel="noopener noreferrer">
         <Image
@@ -112,16 +135,28 @@ All rights reserved</p>
     </div>
     <div>
     <p className='footer-text'>Get in Touch</p>
+    <Link href="/">
+      <a>
     <p className='footer-text2'>info@dvst.io</p>
+    </a>
+    </Link>
       
       </div>
       <div>
       <p className='footer-text'>Learn More</p>
       <ul className='learn-section'>
+      <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>About DVST</li>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>Tokenomics</li>
-        <li>Terms of use</li>
-        <li>Privacy policy</li>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li>Terms of Use</li>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li>Privacy Policy</li>
+        </a>
       </ul>    
       </div>
       <div className='newsletter'>
