@@ -189,7 +189,7 @@ export default function Home() {
           <div className='center-card'>
           <div className='card5'>
               <Image
-        src={icon}
+        src={icon5}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided
