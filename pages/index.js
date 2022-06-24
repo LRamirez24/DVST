@@ -68,6 +68,7 @@ export default function Home() {
         
       
       <Nav />
+      
      
       <section className="jumbo">
       
@@ -79,7 +80,7 @@ export default function Home() {
       <div className='main-text'>
         <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
         <p>
-        The first decentralized, multi-chain, post-quantum secure<br></br>
+        The first decentralized, cross-chain, post-quantum secure<br></br>
         exchange ecosystem.
         </p>
         <div className='buttons-main'>
@@ -124,7 +125,7 @@ export default function Home() {
     variants={variants2}>  
         <div className='middle-section'>
         <p>What is DVST?</p>
-        <h2>The substrate for transacting in the<br></br> quantum age.</h2>
+        <h2>The best way to transact digitally <br></br> in the quantum age..</h2>
         </div>
         </motion.div>
         <div className='cards'>
@@ -138,7 +139,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
             <h3>Cryptographic: Messaging Protocol</h3>
-            <p>In our opinion, our top financial innovation is the creation and standardization of liquidity across collateralization markets. This is important because it extends well beyond distributed ledger assets (like cryptocurrency). This will allow us to produce extremely lucrative services to retail investors that fix many fiat onboarding problems.</p>
+            <p>Most decentralized exchanges (DEX) are limited to a specific blockchain. DVST's cutting edge cryptographic messaging protocol allows for a truly decentralized cross-chain experience. This makes DVST your one-stop-shop for ALL cryptos.</p>
           <a href='#'>Learn More</a>
           </div>
           <div className='card2'>
@@ -151,7 +152,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>Decentralized order book exchange</h3>
-            <p>In our opinion, our top financial innovation is the creation and standardization of liquidity across collateralization markets. This is important because it extends well beyond distributed ledger assets (like cryptocurrency). This will allow us to produce extremely lucrative services to retail investors that fix many fiat onboarding problems.</p>
+            <p>Hight gas fees got you down? Transfer your assets in a DVST Particle — on an open, auditable order book, powered by Solana. The DVST orderbook is fully functional and onchain using the fastest and cheapest blockchain technology available</p>
             <a>Learn More</a>
           </div>
           <div className='card3'>
@@ -164,7 +165,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>DAO + revolutionary economics</h3>
-            <p>In our opinion, our top financial innovation is the creation and standardization of liquidity across collateralization markets. This is important because it extends well beyond distributed ledger assets (like cryptocurrency). This will allow us to produce extremely lucrative services to retail investors that fix many fiat onboarding problems.</p>
+            <p>Crypto prices can be more volatile than other assets. DVST has developed a self adjusting rewards & staking system to protect the value of all token holders. We built a minimum cost exchange and rebate fees are paid to users.</p>
             <a href='#'>Learn More</a>
           </div>
           <div className='card4'>
@@ -177,9 +178,26 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>DVST Trading Desk Alerts </h3>
-            <p>In our opinion, our top financial innovation is the creation and standardization of liquidity across collateralization markets. This is important because it extends well beyond distributed ledger assets (like cryptocurrency). This will allow us to produce extremely lucrative services to retail investors that fix many fiat onboarding problems.</p>
+            <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
             <a href='#'>Learn More</a>
           </div>
+
+          <div className='center-card'>
+          <div className='card5'>
+              <Image
+        src={icon}
+        alt="Picture of the Icon"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+          <h3>DVST Multi-Chain Wallet</h3>
+            <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. No bridges, no wrapped tokens, and no additional blockchains. We are also introducing Supports multi-chain NFT drops. The world's first truly cross-chain decentralized exchange that facilitates interoperability.</p>
+            <a href='#'>Learn More</a>
+          </div>
+          </div>
+
         </div>
       </section>
       <section>
@@ -252,6 +270,9 @@ Make funds visible in the marketplace by wrapping assets in the DVST protocol.</
               <h4>Fulfill transactions directly; peer-to-peer</h4>
             <p className='section-text'>Exchange assets directly, supported by an open orderbook</p>
             </div>
+            
+
+         
           </div>
 
         
@@ -264,6 +285,15 @@ Make funds visible in the marketplace by wrapping assets in the DVST protocol.</
 
 
           </div>
+
+          {/* <div className='last-section'>
+        <p>How DVST FIXES THE HIGH TRANSACTION COSTS?</p>
+        <h2>Our Solution & Innovations</h2>
+        </div> */}
+
+        
+
+          
 
         </div>
       </section>

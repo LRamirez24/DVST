@@ -5,7 +5,7 @@ import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
 
 const name = 'Luis Ramirez';
-export const siteTitle = 'Next.js Client Website';
+export const siteTitle = 'Next.js Crypto Website';
 
 export default function Layout({ children, home }) {
   return (
