@@ -50,6 +50,7 @@ export default function Nav() {
             </ul>
         </nav>
     </header>
+    <hr className='nav-line'></hr>
     </motion.div>
       </section>
 

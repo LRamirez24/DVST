@@ -88,6 +88,7 @@ header {
   min-height: 10vh;
   background-color: transparent;
   z-index: 1;
+  position: relative;
   
   /* box-shadow: 0 1px 8px #ddd; */
 }
@@ -112,8 +113,16 @@ header a {
 }
 
 header a:hover {
-  color: #a584d4;
+  color: #AB00F2;
   
+}
+
+.nav-line{
+  position: absolute;
+  top: 2rem; left: 8rem;
+  width: 88%;
+  
+
 }
 
 /* Jumbo */
@@ -127,25 +136,27 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  padding-top: 2rem;
+  padding-top: 4rem;
 
   /* margin-top: -80px; */
 }
 
 .title-color{
   transition: all 0.3s ease-in-out;
+  
 }
 
 .title-color2{
   transition: all 0.3s ease-in-out;
+  /* color: #AB00F2; */
 }
 
 .title-color:hover{
-  color: #ca70e8;
+  color: #AB00F2;
 }
 
 .title-color2:hover{
-  color: #a584d4;
+  color: #AB00F2;
 }
 
 .jumbo h1{
@@ -191,33 +202,33 @@ margin-top: 2.4rem;
 }
 
 .button-main{
-  border: 1px solid #FFFFFF;
+  margin-right: 40px;
+  border: 1px solid #F2F2F2;
+  color: #0D0D0D;
+    background-color: #F2F2F2;
   border-radius: 8px;
   padding: 1.6rem 3.2rem;
   transition: all 0.3s linear;
-  margin-right: 40px;
   
   }
   
   .button-main:hover{
-    color: #1f1f1f;
-    background-color: white;
+    color: #F2F2F2;
+    background-color: #AB00F2;
+    border: 1px solid #AB00F2;
   }
 
   .button-main2{
     border: 1px solid #FFFFFF;
-    color: #1f1f1f;
-      background-color: white;
-    border-radius: 8px;
-    padding: 1.6rem 3.2rem;
-    transition: all 0.3s linear;
+  border-radius: 8px;
+  padding: 1.6rem 3.2rem;
+  transition: all 0.3s linear;
     
     }
     
     .button-main2:hover{
-      color: #F2F2F2;
-      background-color: transparent;
-      border: 1px solid #FFFFFF;
+      background-color: #AB00F2;
+      border: 1px solid #AB00F2;
     }
 
 
@@ -276,7 +287,7 @@ transition: all .2s ease-in-out;
 }
 
 .cards a:hover {
- color: #ca70e8;
+ color: #AB00F2;
 }
 
 /* .card1 {
@@ -649,7 +660,7 @@ ul{
 }
 
 .learn-section li:hover {
-  color: #a584d4;
+  color: #AB00F2;
 }
 
 
@@ -670,7 +681,7 @@ ul{
 }
 
 .footer-text2:hover {
-  color: #a584d4;
+  color: #AB00F2;
 }
 
 .button-footer{
@@ -872,6 +883,12 @@ hr{
     }
     br{
       display: none;
+    }
+    .nav-line{
+      position: absolute;
+      top: 1rem; left: 2rem;
+      width: 88%;
+      
     }
     .jumbo{
       min-height: 80vh;

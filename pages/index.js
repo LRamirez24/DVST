@@ -4,7 +4,11 @@ import Image from 'next/image'
 import utilStyles from '../styles/Home.module.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import icon from '../public/images/icon4.svg'
+import icon from '../public/images/arrow.svg'
+import icon2 from '../public/images/book.svg'
+import icon3 from '../public/images/money.svg'
+import icon4 from '../public/images/alert3.svg'
+import icon5 from '../public/images/wallet.svg'
 import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number2.svg'
 import number2 from '../public/images/number3.svg'
@@ -144,7 +148,7 @@ export default function Home() {
           </div>
           <div className='card2'>
           <Image
-        src={icon}
+        src={icon2}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided
@@ -153,11 +157,11 @@ export default function Home() {
       />
           <h3>Decentralized order book exchange</h3>
             <p>Hight gas fees got you down? Transfer your assets in a DVST Particle — on an open, auditable order book, powered by Solana. The DVST orderbook is fully functional and onchain using the fastest and cheapest blockchain technology available</p>
-            <a>Learn More</a>
+            <a href='#'>Learn More</a>
           </div>
           <div className='card3'>
           <Image
-        src={icon}
+        src={icon3}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided
@@ -170,7 +174,7 @@ export default function Home() {
           </div>
           <div className='card4'>
               <Image
-        src={icon}
+        src={icon4}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided

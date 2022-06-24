@@ -161,7 +161,10 @@ All rights reserved</p>
       </div>
       <div className='newsletter'>
       <p  className='footer-text'>Our Newsletter</p>
+      <a href='#'>
       <p className='footer-text2'>Subscribe to our newsletter to get<br></br> our news & deals delivered to you.</p>
+      </a>
+      
       </div>
         </div>
 
