@@ -85,6 +85,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 8rem;
+  padding-top: 1rem;
   min-height: 10vh;
   background-color: transparent;
   z-index: 1;
@@ -117,12 +118,14 @@ header a:hover {
   
 }
 
+.navline-section{
+  padding: 0px 8rem;
+}
+
 .nav-line{
   position: absolute;
-  top: 2rem; left: 8rem;
+  top: 2rem; 
   width: 88%;
-  
-
 }
 
 /* Jumbo */
@@ -317,7 +320,8 @@ transition: all .2s ease-in-out;
 
 
 .card1{
-  width: 22%;
+  width: 30%;
+  /* width: 22%; */
   /* background-color: transparent; */
   /* border: 1px solid; */
   /* padding: 10px; */
@@ -336,13 +340,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .card1:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(39, 11, 151, 0.37);
 }
 
 
 
 .card2{
-  width: 22%;
+  width: 30%;
   /* background-color: white; */
   /* background-color: transparent;
   border: 1px solid; */
@@ -387,7 +391,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 } */
 
 .card3{
-  width: 22%;
+  width: 30%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
@@ -434,7 +438,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 } */
 
 .card4{
-  width: 22%;
+  width: 30%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
@@ -461,10 +465,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 8rem;
 }
 
 .card5{
-  width: 80%;
+  width: 50%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
@@ -476,7 +481,38 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
   padding: 3.2rem 1.6rem;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
+  
+  border-radius: 12px;
+  transition: all .2s ease-in-out;
+  background: rgba( 255, 255, 255, 0.15 );
+/* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+/* border-radius: 10px; */
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-right: 6rem;
+}
+.card5:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+
+.card6{
+  width: 50%;
+  /* background-color: white; */
+  /* background-color: transparent; */
+  /* background-color: transparent;
+  border: 1px solid; */
+  color: white;
+  
+  
+  
+  /* padding: 10px; */
+  /* box-shadow: 5px 10px; */
+  padding: 3.2rem 1.6rem;
+  /* margin-top: 6rem; */
   border-radius: 12px;
   transition: all .2s ease-in-out;
   background: rgba( 255, 255, 255, 0.15 );
@@ -486,10 +522,11 @@ backdrop-filter: blur( 5px );
 /* border-radius: 10px; */
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.card5:hover {
+.card6:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 }
+
 
 
 /* .card4 {
@@ -576,8 +613,8 @@ padding-bottom: 1.6rem;
 }
 
 .info-image{
- max-width: 5rem;
- min-width: 5rem;
+ max-width: 4rem;
+ min-width: 4rem;
  /* filter: drop-shadow(8px 8px 4px #FFFFFF); */
 }
 
@@ -760,6 +797,11 @@ hr{
   /* .jumbo{
     flex-direction: column;
   } */
+  .nav-line{
+    position: absolute;
+    top: 2rem; 
+    width: 78%;
+  }
   .main-image{
     margin-top: 0rem;
   }
@@ -781,6 +823,22 @@ hr{
         -ms-flex-align: center;
             align-items: center;
   }
+  .center-card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            margin-top: 0rem;
+  }
   .card1{
     width: 80%;
     margin-bottom: 6rem;
@@ -799,6 +857,12 @@ hr{
   }
   .card5{
     margin-top: 0rem;
+    width: 80%;
+    margin-right: 0rem;
+  }
+  .card6{
+    margin-top: 6rem;
+    width: 80%;
   }
   .how-section{
     margin-bottom: 0px;
@@ -959,3 +1023,13 @@ hr{
     text-align: center;
    }
     }
+
+
+    @media only screen and (max-width: 375px) {
+      .main-image{
+        display: none;
+      }
+      .middle-section{
+        padding-top: 8rem;
+      }
+      }

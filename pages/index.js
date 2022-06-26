@@ -9,13 +9,14 @@ import icon2 from '../public/images/book.svg'
 import icon3 from '../public/images/money.svg'
 import icon4 from '../public/images/alert3.svg'
 import icon5 from '../public/images/wallet.svg'
-import vector from '../public/images/bitcoin.svg'
-import number from '../public/images/number2.svg'
-import number2 from '../public/images/number3.svg'
-import number3 from '../public/images/number4.svg'
+import vector from '../public/images/robot-sitting.svg'
+import number from '../public/images/number-test.svg'
+import number2 from '../public/images/number-test2.svg'
+import number3 from '../public/images/number-test3.svg'
 import man from '../public/images/robot2.svg'
 import { motion } from "framer-motion"
-import { gsap } from "gsap";
+
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -172,7 +173,7 @@ export default function Home() {
             <p>Crypto prices can be more volatile than other assets. DVST has developed a self adjusting rewards & staking system to protect the value of all token holders. We built a minimum cost exchange and rebate fees are paid to users.</p>
             <a href='#'>Learn More</a>
           </div>
-          <div className='card4'>
+          {/* <div className='card4'>
               <Image
         src={icon4}
         alt="Picture of the Icon"
@@ -184,10 +185,38 @@ export default function Home() {
           <h3>DVST Trading Desk Alerts </h3>
             <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
             <a href='#'>Learn More</a>
-          </div>
+          </div> */}
 
           <div className='center-card'>
-          <div className='card5'>
+            <div className='card5'>
+              <Image
+        src={icon4}
+        alt="Picture of the Icon"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+          <h3>DVST Trading Desk Alerts </h3>
+            <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
+            <a href='#'>Learn More</a>
+          </div> 
+
+          <div className='card6'>
+              <Image
+        src={icon5}
+        alt="Picture of the Icon"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+          <h3>DVST Multi-Chain Wallet</h3>
+            <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. The world's first truly cross-chain decentralized exchange.</p>
+            <a href='#'>Learn More</a>
+          </div>
+
+          {/* <div className='card6'>
               <Image
         src={icon5}
         alt="Picture of the Icon"
@@ -199,7 +228,9 @@ export default function Home() {
           <h3>DVST Multi-Chain Wallet</h3>
             <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. No bridges, no wrapped tokens, and no additional blockchains. We are also introducing Supports multi-chain NFT drops. The world's first truly cross-chain decentralized exchange that facilitates interoperability.</p>
             <a href='#'>Learn More</a>
-          </div>
+          </div> */}
+
+
           </div>
 
         </div>
