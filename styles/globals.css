@@ -762,9 +762,9 @@ ul{
   color: #bfbfbf;
 }
 
-.footer-text2:hover {
+/* .footer-text2:hover {
   color: #AB00F2;
-}
+} */
 
 .button-footer{
 border: 1px solid #FFFFFF;
@@ -1006,7 +1006,7 @@ hr{
     .jumbo{
       min-height: 80vh;
       text-align: center;
-      padding-top: 2rem;
+      padding-top: 0rem;
     }
    
     .main-text{
@@ -1020,7 +1020,7 @@ hr{
     }
     .main-image{
       position: absolute;
-      top: 88%;
+      top: 85%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 200px;
