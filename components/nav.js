@@ -44,7 +44,7 @@ export default function Nav() {
           
         <nav>
             <ul>
-                <li><a href="#">Tokenomics</a></li>
+                <li><a className='hover-underline-animation' href="#">Tokenomics</a></li>
                 {/* <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li> */}
             </ul>

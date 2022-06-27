@@ -147,7 +147,7 @@ export default function Home() {
       />
             <h3>Cryptographic: Messaging Protocol</h3>
             <p>Most decentralized exchanges (DEX) are limited to a specific blockchain. DVST's cutting edge cryptographic messaging protocol allows for a truly decentralized cross-chain experience. This makes DVST your one-stop-shop for ALL cryptos.</p>
-          <a href='#'>Learn More</a>
+          <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
           <div className='card2'>
           <Image
@@ -160,7 +160,7 @@ export default function Home() {
       />
           <h3>Decentralized order book exchange</h3>
             <p>Hight gas fees got you down? Transfer your assets in a DVST Particle — on an open, auditable order book, powered by Solana. The DVST orderbook is fully functional and onchain using the fastest and cheapest blockchain technology available</p>
-            <a href='#'>Learn More</a>
+            <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
           <div className='card3'>
           <Image
@@ -173,7 +173,7 @@ export default function Home() {
       />
           <h3>DAO + revolutionary economics</h3>
             <p>Crypto prices can be more volatile than other assets. DVST has developed a self adjusting rewards & staking system to protect the value of all token holders. We built a minimum cost exchange and rebate fees are paid to users.</p>
-            <a href='#'>Learn More</a>
+            <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
           {/* <div className='card4'>
               <Image
@@ -201,7 +201,7 @@ export default function Home() {
       />
           <h3>DVST Trading Desk Alerts </h3>
             <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
-            <a href='#'>Learn More</a>
+            <a className='hover-underline-animation' href='#'>Learn More</a>
           </div> 
 
           <div className='card6'>
@@ -215,7 +215,7 @@ export default function Home() {
       />
           <h3>DVST Multi-Chain Wallet</h3>
             <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. The world's first truly cross-chain decentralized exchange.</p>
-            <a href='#'>Learn More</a>
+            <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
 
           {/* <div className='card6'>
