@@ -137,7 +137,7 @@ All rights reserved</p>
     <p className='footer-text'>Get in Touch</p>
     <Link href="/">
       <a>
-    <p className='footer-text2'>info@dvst.io</p>
+    <p className='footer-text2 hover-underline-animation'>info@dvst.io</p>
     </a>
     </Link>
       
@@ -145,16 +145,16 @@ All rights reserved</p>
       <div>
       <p className='footer-text'>Learn More</p>
       <ul className='learn-section'>
-      <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+      <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>About DVST</li>
         </a>
-        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>Tokenomics</li>
         </a>
-        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>Terms of Use</li>
         </a>
-        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
         <li>Privacy Policy</li>
         </a>
       </ul>    
