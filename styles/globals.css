@@ -45,14 +45,14 @@ a {
 }
 
 h1{
-  font-size: 10rem;
+  font-size: 10.4rem;
   font-weight: 700;
   line-height: 110%;
   letter-spacing: 0.1;
 }
 
 h2{
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1.3;
   text-align: center;
@@ -139,7 +139,7 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  padding-top: 4rem;
+  margin-top: 4rem;
 
   /* margin-top: -80px; */
 }
@@ -163,14 +163,14 @@ header a:hover {
 }
 
 .jumbo h1{
-  padding-top: 4rem;
+  margin-top: 4rem;
 }
 
 .jumbo p {
   /* margin-top: -20px; */
 font-size: 2rem;
 font-weight: 300;
-margin-top: 2.4rem;
+margin-top: 2rem;
 }
 
 .main-image{
@@ -200,7 +200,7 @@ margin-top: 2.4rem;
 
 .buttons-main{
   display: flex;
-  padding-top: 4rem;
+  margin-top: 4rem;
   align-items: center;
 }
 
@@ -252,13 +252,13 @@ margin-top: 2.4rem;
   /* color: #662bb9; */
   text-transform: uppercase;
   font-size: 1.6rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   font-weight: 700;
 }
 
-.middle-section h2{
+/* .middle-section h2{
   margin-top: -2rem;
-}
+} */
 
 .cards{
   display: flex;
@@ -269,8 +269,8 @@ margin-top: 2.4rem;
   /* color: #0D0D0D; */
   padding: 0px 8rem;
   text-align: center;
-padding-top: 8rem;
-padding-bottom: 15rem;
+  margin-top: 8rem;
+  margin-bottom: 15rem;
 transition: all .2s ease-in-out;
 
   /* background-color: #F2F2F2; */
@@ -562,11 +562,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   flex-wrap: wrap;
   /* color: #0D0D0D; */
   padding: 0px 8rem;
-  padding-bottom: 15rem;
+  margin-bottom: 15rem;
 }
 
 .vector-image{
   width: 50%;
+  margin-top: -3rem;
 }
 
 .how-text{
@@ -587,7 +588,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .how-text h3{
 font-size: 4rem;
-padding-bottom: 1.6rem;
+margin-bottom: 1.6rem;
 }
 
 .how-text p {
@@ -598,16 +599,16 @@ padding-bottom: 1.6rem;
 .info-section{
   display: flex;
   align-items: center;
-  padding-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .info-text2{
-  padding-left: 2.4rem;
-  padding-top: 2.4rem;
+  margin-left: 2.4rem;
+  margin-top: 2.4rem;
 }
 
 .info-text2 h4{
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -653,7 +654,7 @@ ul{
 .social-icons{
   display: flex;
   justify-content: space-between;
-  padding-top: 4rem;
+  margin-top: 4rem;
  
 }
 
@@ -674,7 +675,7 @@ ul{
 }
 
 .footer-title{
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 140%;
   font-family: 'JetBrains Mono', monospace;
@@ -971,7 +972,7 @@ hr{
     }
     .main-image{
       position: absolute;
-      top: 84%;
+      top: 88%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 200px;

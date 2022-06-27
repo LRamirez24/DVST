@@ -62,6 +62,8 @@ export default function Home() {
     }
     },
   }
+
+  
   
   return (
     <Layout home>
@@ -89,7 +91,7 @@ export default function Home() {
         exchange ecosystem.
         </p>
         <div className='buttons-main'>
-        <a href="#" className='button-main'>Join Us</a>
+        <a href="#" className='button-main'>Join Now</a>
         <a href="#" className='button-main2'>More Info</a>
         </div>
         </div> 
