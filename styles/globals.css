@@ -961,6 +961,10 @@ hr{
    }
    .footer-title{
     padding-bottom: 4rem;
+    text-align: center;
+   }
+   br{
+    display: none;
    }
    .footer-logo{
    display: flex;

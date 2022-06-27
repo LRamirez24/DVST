@@ -145,17 +145,17 @@ All rights reserved</p>
       <div>
       <p className='footer-text'>Learn More</p>
       <ul className='learn-section'>
-      <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
-        <li>About DVST</li>
+      <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li className='hover-underline-animation2'>About DVST</li>
         </a>
-        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
-        <li>Tokenomics</li>
+        <a  target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li className='hover-underline-animation2'>Tokenomics</li>
         </a>
-        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
-        <li>Terms of Use</li>
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li className='hover-underline-animation2'>Terms of Use</li>
         </a>
-        <a className='hover-underline-animation2' target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
-        <li>Privacy Policy</li>
+        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <li className='hover-underline-animation2'>Privacy Policy</li>
         </a>
       </ul>    
       </div>
