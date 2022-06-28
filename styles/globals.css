@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  font-family: 'JetBrains Mono', monospace;
+  /* font-family: 'JetBrains Mono', monospace; */
+  font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   background-color: #F2F2F2;
   line-height: 1.6;
@@ -168,6 +169,7 @@ header a:hover {
 
 .jumbo h1{
   margin-top: 4rem;
+  /* font-family: 'Inter', sans-serif; */
 }
 
 .jumbo p {

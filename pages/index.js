@@ -173,7 +173,7 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>Decentralized order book exchange</h3>
+          <h3>Decentralized Order Book Exchange</h3>
             <p>Hight gas fees got you down? Transfer your assets in a DVST Particle — on an open, auditable order book, powered by Solana. The DVST orderbook is fully functional and onchain using the fastest and cheapest blockchain technology available</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
@@ -186,7 +186,7 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>DAO + revolutionary economics</h3>
+          <h3>DAO + Revolutionary Economics</h3>
             <p>Crypto prices can be more volatile than other assets. DVST has developed a self adjusting rewards & staking system to protect the value of all token holders. We built a minimum cost exchange and rebate fees are paid to users.</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
@@ -267,7 +267,7 @@ export default function Home() {
         
           <div className='how-text'>
           <p className='how-title'>HOW DOES DVST WORK? </p>
-          <h3 className='how-subtitle'>Exchange directly</h3>
+          <h3 className='how-subtitle'>Exchange Directly</h3>
 
           <div className='info-section'>
             <div className='info-image'>
