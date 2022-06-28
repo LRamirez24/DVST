@@ -4,15 +4,16 @@ import Image from 'next/image'
 import utilStyles from '../styles/Home.module.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import icon from '../public/images/arrow.svg'
-import icon2 from '../public/images/book.svg'
-import icon3 from '../public/images/money.svg'
-import icon4 from '../public/images/alert3.svg'
-import icon5 from '../public/images/wallet.svg'
-import vector from '../public/images/robot-sitting.svg'
-import number from '../public/images/number-test.svg'
-import number2 from '../public/images/number-test2.svg'
-import number3 from '../public/images/number-test3.svg'
+import icon from '../public/images/arrow-4.svg'
+import arrow from '../public/images/arrow-large.svg'
+import icon2 from '../public/images/book-3.svg'
+import icon3 from '../public/images/money-2.svg'
+import icon4 from '../public/images/alert.svg'
+import icon5 from '../public/images/wallet-2.svg'
+import vector from '../public/images/bitcoin.svg'
+import number from '../public/images/number-purple1-2.svg'
+import number2 from '../public/images/number-purple2-2.svg'
+import number3 from '../public/images/number-purple3-2.svg'
 import man from '../public/images/robot2.svg'
 import { motion } from "framer-motion"
 
@@ -93,6 +94,17 @@ export default function Home() {
         <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
         <a href="#" className='button-main2'>More Info</a>
+        </div>
+        <div className='arrow'>
+        <Image className='robot'
+        src={arrow}
+        alt="Picture of the arrow"
+        // width={700} 
+        // height={1000} 
+        
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
         </div>
         </div> 
         
