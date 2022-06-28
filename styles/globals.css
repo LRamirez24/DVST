@@ -850,7 +850,7 @@ ul{
 } */
 
 .button-footer{
-border: 1px solid #FFFFFF;
+border: 1px solid #F2F2F2;
 border-radius: 8px;
 padding: 1.6rem 3.2rem;
 transition: all 0.3s linear;
@@ -859,7 +859,7 @@ font-weight: 700;
 
 .button-footer:hover{
   color: #1f1f1f;
-  background-color: white;
+  background-color: #F2F2F2;
 }
 
 hr{
@@ -877,6 +877,53 @@ hr{
 .footer-logo{
   padding-top: 0.7em;
 }
+
+.subscribe{
+  margin-top: 4rem;
+  display: flex;
+}
+
+.input-field{
+  border: 1px solid #F2F2F2;
+border-radius: 8px;
+padding: 1.6rem 3.2rem;
+transition:         0.4s ease-in;
+font-weight: 700;
+background: transparent;
+color: #F2F2F2;
+width: 60%;
+margin-right: 1.6rem;
+}
+
+.subscribe-button{
+  border: 1px solid #F2F2F2;
+  border-radius: 8px;
+  padding: 1.6rem 3.2rem;
+  transition:         0.4s ease-in-out;
+  font-weight: 700;
+  background: #F2F2F2;
+  color: #0D0D0D;
+  width: 30%;
+  cursor: pointer;
+}
+
+
+
+
+.subscribe-button:hover {
+  color: #F2F2F2;
+  border: 1px solid #640BDB;
+  background: #640BDB;
+
+  
+}
+
+
+
+
+
+
+
 
 
 /* Media Queries */
@@ -1158,6 +1205,12 @@ hr{
    .newsletter{
     text-align: center;
    }
+   .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  } 
     }
 
 

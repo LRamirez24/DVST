@@ -164,6 +164,14 @@ All rights reserved</p>
       <a>
       <p className='footer-text2'>Subscribe to our newsletter to get<br></br> our news & deals delivered to you.</p>
       </a>
+
+      <div className='subscribe'>
+      <form action="/send-data-here" method="post" data-netlify="true" target='_blank' rel="noopener noreferrer">
+  {/* <label for="last">Last name:</label> */}
+  <input className='input-field' type="email" placeholder='Enter Email' id="last" name="email" required  />
+  <button className='subscribe-button' type="submit">Submit</button>
+</form>
+      </div>
       
       </div>
         </div>
