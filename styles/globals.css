@@ -185,7 +185,7 @@ margin-top: 2rem;
   /* max-width: 700px; */
   justify-content: center;
   align-items: center;
-  margin-top: 0rem;
+  margin-top: -2rem;
   
   transform: rotate(2deg);
   position: absolute;
@@ -314,6 +314,8 @@ margin-top: 2rem;
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 6rem;
+  min-height: 40vh;
   /* color: #0D0D0D; */
 /* padding-top: 80px; */
   /* background-color: #F2F2F2; */
@@ -331,6 +333,12 @@ margin-top: 2rem;
   margin-top: -2rem;
 } */
 
+.core-products{
+  display: flex;
+  margin-top: 15rem;
+  padding: 0px 8rem;
+}
+
 .cards{
   display: flex;
   flex-direction: row;
@@ -340,7 +348,7 @@ margin-top: 2rem;
   /* color: #0D0D0D; */
   padding: 0px 8rem;
   text-align: center;
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 15rem;
 transition: all .2s ease-in-out;
 

@@ -42,13 +42,12 @@ export default function Nav() {
           </div>
           
           
-        <nav>
+        {/* <nav>
             <ul>
                 <li><a className='hover-underline-animation' href="#">Tokenomics</a></li>
-                {/* <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li> */}
+              
             </ul>
-        </nav>
+        </nav> */}
     </header>
     <div className='navline-section'>
     <hr className='nav-line'></hr>

@@ -91,8 +91,7 @@ export default function Home() {
       <div className='main-text'>
         <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
         <p>
-        The first decentralized, cross-chain, post-quantum secure<br></br>
-        exchange ecosystem.
+        A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange Ecosystem.
         </p>
         <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
@@ -117,12 +116,7 @@ export default function Home() {
     initial="hidden"
     animate="visible"
     variants={variants3}> 
-      {/* <div className='sub-heading'>
-      <p>
-        The first decentralized, multi-chain, post-quantum secure<br></br>
-        exchange ecosystem.
-        </p>
-      </div> */}
+   
 
 
 <div className='main-image'>
@@ -147,9 +141,15 @@ export default function Home() {
     variants={variants2}>  
         <div className='middle-section'>
         <p>What is DVST?</p>
-        <h2>The best way to transact digitally <br></br> in the quantum age.</h2>
+        <h2>The best way to transact digitally<br></br> in the quantum age..</h2>
         </div>
+
         </motion.div>
+
+<div className='core-products'>
+<h2>Our Core Innovations:</h2>
+</div>
+
         <div className='cards'>
           <div className='card1'>
           <Image
@@ -160,10 +160,11 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-            <h3>Cryptographic: Messaging Protocol</h3>
-            <p>Most decentralized exchanges (DEX) are limited to a specific blockchain. DVST's cutting edge cryptographic messaging protocol allows for a truly decentralized cross-chain experience. This makes DVST your one-stop-shop for ALL cryptos.</p>
+            <h3>Cross-Chain Portability</h3>
+            <p>the cryptographic primitives embedded into the SDK that allow for the non-custodial transfer of assets between parties regardless of their initial blockchains.</p>
           <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
+
           <div className='card2'>
           <Image
         src={icon2}
@@ -173,10 +174,11 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>Decentralized Order Book Exchange</h3>
-            <p>Hight gas fees got you down? Transfer your assets in a DVST Particle — on an open, auditable order book, powered by Solana. The DVST orderbook is fully functional and onchain using the fastest and cheapest blockchain technology available</p>
+          <h3>The DVST Exchange</h3>
+            <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way. It is the future of crypto technology.</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
+
           <div className='card3'>
           <Image
         src={icon3}
@@ -186,23 +188,11 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>DAO + Revolutionary Economics</h3>
-            <p>Crypto prices can be more volatile than other assets. DVST has developed a self adjusting rewards & staking system to protect the value of all token holders. We built a minimum cost exchange and rebate fees are paid to users.</p>
+          <h3>Transaction Fee Rebate Mechanism</h3>
+            <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
-          {/* <div className='card4'>
-              <Image
-        src={icon4}
-        alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      />
-          <h3>DVST Trading Desk Alerts </h3>
-            <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
-            <a href='#'>Learn More</a>
-          </div> */}
+       
 
           <div className='center-card'>
             <div className='card5'>
@@ -214,8 +204,8 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>DVST Trading Desk Alerts </h3>
-            <p>With DVSTs Moonpay partnership, buying crypto is easy. Don’t have an existing wallet? New to crypto? Buy coins on DVST with your credit or debit card. Supports cross-chain token launches. Get started with our true multi-chain wallet </p>
+          <h3>The DVST Wallet</h3>
+            <p>A cross chain wallet allowing for comprehensive onboarding of users regardless of what they want to buy or which chain it is on. No bridges, no wrapped tokens, and no additional blockchains.</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div> 
 
@@ -228,31 +218,20 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>DVST Multi-Chain Wallet</h3>
-            <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. The world's first truly cross-chain decentralized exchange.</p>
+          <h3>Post Quantum Secure Ecosystem</h3>
+            <p>Protecting users from coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space with a combination of cryptography and tokenomics.</p>
             <a className='hover-underline-animation' href='#'>Learn More</a>
           </div>
 
-          {/* <div className='card6'>
-              <Image
-        src={icon5}
-        alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      />
-          <h3>DVST Multi-Chain Wallet</h3>
-            <p>The DVST wallet is a comprehensive onboarding for users regardless of what they want to buy or which chain it is on.  It is a cross chain wallet that allows for the management of assets and multiple key sets. No bridges, no wrapped tokens, and no additional blockchains. We are also introducing Supports multi-chain NFT drops. The world's first truly cross-chain decentralized exchange that facilitates interoperability.</p>
-            <a href='#'>Learn More</a>
-          </div> */}
+   
 
 
           </div>
 
+
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className='how-section'>
           <div className='vector-image'>
           <Image
@@ -338,17 +317,14 @@ Make funds visible in the marketplace by wrapping assets in the DVST protocol.</
 
           </div>
 
-          {/* <div className='last-section'>
-        <p>How DVST FIXES THE HIGH TRANSACTION COSTS?</p>
-        <h2>Our Solution & Innovations</h2>
-        </div> */}
+        
 
         
 
           
 
         </div>
-      </section>
+      </section> */}
       <Footer />
       
       
