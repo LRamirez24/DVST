@@ -145,16 +145,16 @@ All rights reserved</p>
       <div>
       <p className='footer-text'>Learn More</p>
       <ul className='learn-section'>
-      <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+      <a href="#">
         <li className='hover-underline-animation2'>About DVST</li>
         </a>
-        <a  target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a href="#" >
         <li className='hover-underline-animation2'>Tokenomics</li>
         </a>
-        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a href="#">
         <li className='hover-underline-animation2'>Terms of Use</li>
         </a>
-        <a target="_blank" href="https://www.instagram.com/" rel="noopener noreferrer">
+        <a href="#">
         <li className='hover-underline-animation2'>Privacy Policy</li>
         </a>
       </ul>    

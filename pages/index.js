@@ -197,7 +197,7 @@ export default function Home() {
           <div className='center-card'>
             <div className='card5'>
               <Image
-        src={icon4}
+        src={icon5}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided
@@ -211,7 +211,7 @@ export default function Home() {
 
           <div className='card6'>
               <Image
-        src={icon5}
+        src={icon4}
         alt="Picture of the Icon"
         // width={500} automatically provided
         // height={500} automatically provided
