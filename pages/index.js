@@ -147,7 +147,7 @@ export default function Home() {
     variants={variants2}>  
         <div className='middle-section'>
         <p>What is DVST?</p>
-        <h2>The best way to transact digitally <br></br> in the quantum age..</h2>
+        <h2>The best way to transact digitally <br></br> in the quantum age.</h2>
         </div>
         </motion.div>
         <div className='cards'>
