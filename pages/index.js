@@ -16,9 +16,10 @@ import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
 import man from '../public/images/robot2.svg'
 import { motion } from "framer-motion"
-
-
 import Link from 'next/link'
+import Background from '../components/background';
+
+
 
 export default function Home() {
   const variants = {
@@ -72,9 +73,11 @@ export default function Home() {
         <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+
       
+   
         
-      
+      <Background />
       <Nav />
       
      
