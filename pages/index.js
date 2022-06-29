@@ -14,7 +14,7 @@ import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import man from '../public/images/robot2.svg'
+import man from '../public/images/drip.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -91,12 +91,12 @@ export default function Home() {
       <div className='main-text'>
         <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
         <p>
-        A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange Ecosystem.
+        A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange.
         </p>
-        <div className='buttons-main'>
+        {/* <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
         <a href="#" className='button-main2'>More Info</a>
-        </div>
+        </div> */}
         <div className='arrow'>
         <Image className='robot'
         src={arrow}
@@ -141,13 +141,13 @@ export default function Home() {
     variants={variants2}>  
         <div className='middle-section'>
         <p>What is DVST?</p>
-        <h2>The best way to transact digitally<br></br> in the quantum age..</h2>
+        <h2 className='middle-heading'>The best way to transact digitally<br></br> in the quantum age..</h2>
         </div>
 
         </motion.div>
 
 <div className='core-products'>
-<h2>Our Core Innovations:</h2>
+<h2>Core Innovations:</h2>
 </div>
 
         <div className='cards'>
@@ -218,8 +218,8 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          <h3>Post Quantum Secure Ecosystem</h3>
-            <p>Protecting users from coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space with a combination of cryptography and tokenomics.</p>
+          <h3>Post Quantum Secure</h3>
+            <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 

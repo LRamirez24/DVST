@@ -135,14 +135,14 @@ header a:hover {
 
 .jumbo{
   /* background-image: url('../public/images/purple.png'); */
-  min-height: 100vh;
+  min-height: 70vh;
   /* width: 100%; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   /* margin-top: -80px; */
 }
@@ -154,7 +154,7 @@ header a:hover {
 
 .title-color2{
   transition: all 0.3s ease-in-out;
-  /* color: #640BDB; */
+  color: #640BDB;
   
 }
 
@@ -182,12 +182,13 @@ margin-top: 2rem;
 }
 
 .main-image{
-  /* max-width: 700px; */
+  /* max-width: 74rem; */
   justify-content: center;
   align-items: center;
   margin-top: -2rem;
-  
-  transform: rotate(2deg);
+  padding-left: 4rem;
+  /* padding-left: 4rem; */
+  /* transform: rotate(2deg); */
   position: absolute;
   transition: all 0.3s ease-in-out;
 
@@ -314,12 +315,17 @@ margin-top: 2rem;
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 6rem;
-  min-height: 40vh;
+  margin-top: 15rem;
+  
+  /* min-height: 20vh; */
   /* color: #0D0D0D; */
 /* padding-top: 80px; */
   /* background-color: #F2F2F2; */
 }
+
+/* .middle-heading{
+  color: #640BDB;
+} */
 
 .middle-section p {
   /* color: #662bb9; */
@@ -327,6 +333,7 @@ margin-top: 2rem;
   font-size: 1.6rem;
   margin-bottom: 2rem;
   font-weight: 700;
+  /* color: #640BDB; */
 }
 
 /* .middle-section h2{
@@ -335,8 +342,9 @@ margin-top: 2rem;
 
 .core-products{
   display: flex;
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0px 8rem;
+  /* color: #640BDB; */
 }
 
 .cards{
@@ -850,7 +858,8 @@ ul{
 } */
 
 .button-footer{
-border: 1px solid #F2F2F2;
+border: 1px solid #640BDB;
+background: #640BDB;
 border-radius: 8px;
 padding: 1.6rem 3.2rem;
 transition: all 0.3s linear;
@@ -858,8 +867,9 @@ font-weight: 700;
 }
 
 .button-footer:hover{
-  color: #1f1f1f;
-  background-color: #F2F2F2;
+  color: #F2F2F2;
+  background-color: transparent;
+  border: 1px solid #F2F2F2;
 }
 
 hr{
@@ -932,6 +942,16 @@ margin-right: 1.6rem;
 
 
 /* Large */
+@media only screen and (max-width: 2400px) {
+  .main-image{
+    max-width: 74rem;
+    
+    
+  }
+  }
+
+
+
 @media only screen and (max-width: 1400px) {
 
   .footer-main{
@@ -963,6 +983,8 @@ margin-right: 1.6rem;
 @media only screen and (max-width: 1100px) {
 .main-image{
   margin-top: 0rem;
+  padding: 0rem;
+  
 }
 }
 
@@ -1138,7 +1160,7 @@ margin-right: 1.6rem;
       
     }
     .jumbo{
-      min-height: 80vh;
+      min-height: 70vh;
       text-align: center;
       padding-top: 0rem;
     }
@@ -1154,22 +1176,23 @@ margin-right: 1.6rem;
     }
     .main-image{
       position: absolute;
-      top: 85%;
+      top: 75%;
       left: 50%;
       transform: translate(-50%, -50%);
       width: 200px;
     }
 
     .middle-section{
-      padding-top: 15rem;
+      padding-top: 6rem;
     }
+    
 
    .cards{
     padding-bottom: 0;
     /* margin-top: 0; */
     margin-bottom: 15rem;
     padding: 0px 0px;
-    padding-top: 4rem;
+    padding-top: 0rem;
    }
 
    .how-section{
@@ -1204,6 +1227,7 @@ margin-right: 1.6rem;
    }
    .newsletter{
     text-align: center;
+    margin-top: 2rem;
    }
    .subscribe{
     display: flex;

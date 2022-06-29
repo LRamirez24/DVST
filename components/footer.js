@@ -5,6 +5,7 @@ import github from '../public/images/github.svg'
 import twitter from '../public/images/twitter.svg'
 import youtube from '../public/images/youtube.svg'
 import instagram from '../public/images/instagram.svg'
+import logo2 from '../public/images/logo-dvst-small.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 
@@ -159,21 +160,32 @@ All rights reserved</p>
         </a>
       </ul>    
       </div>
+   
       <div className='newsletter'>
-      <p  className='footer-text'>Our Newsletter</p>
+      <Image
+        src={logo2}
+        alt="Picture of the Logo2"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+
+      {/* <p  className='footer-text'>Our Newsletter</p>
       <a>
       <p className='footer-text2'>Subscribe to our newsletter to get<br></br> our news & deals delivered to you.</p>
-      </a>
+      </a> */}
 
-      <div className='subscribe'>
+      {/* <div className='subscribe'>
       <form action="/send-data-here" method="post" data-netlify="true" target='_blank' rel="noopener noreferrer">
-  {/* <label for="last">Last name:</label> */}
+  
   <input className='input-field' type="email" placeholder='Enter Email' id="last" name="email" required  />
   <button className='subscribe-button' type="submit">Submit</button>
 </form>
-      </div>
+      </div> */}
       
       </div>
+
         </div>
 
         </footer>

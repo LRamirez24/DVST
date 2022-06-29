@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from '../public/images/logo-mid.svg'
+import logo2 from '../public/images/logo-dvst-small.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 
@@ -43,15 +44,23 @@ export default function Nav() {
           
           
         {/* <nav>
+        <Image
+        src={logo2}
+        alt="Picture of the Logo2"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
             <ul>
                 <li><a className='hover-underline-animation' href="#">Tokenomics</a></li>
               
             </ul>
         </nav> */}
     </header>
-    <div className='navline-section'>
+    {/* <div className='navline-section'>
     <hr className='nav-line'></hr>
-    </div>
+    </div> */}
     
     </motion.div>
       </section>
