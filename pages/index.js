@@ -162,7 +162,7 @@ export default function Home() {
       />
             <h3>Cross-Chain Portability</h3>
             <p>the cryptographic primitives embedded into the SDK that allow for the non-custodial transfer of assets between parties regardless of their initial blockchains.</p>
-          <a className='hover-underline-animation' href='#'>Learn More</a>
+          {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
           <div className='card2'>
@@ -176,7 +176,7 @@ export default function Home() {
       />
           <h3>The DVST Exchange</h3>
             <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way. It is the future of crypto technology.</p>
-            <a className='hover-underline-animation' href='#'>Learn More</a>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
           <div className='card3'>
@@ -190,7 +190,7 @@ export default function Home() {
       />
           <h3>Transaction Fee Rebate Mechanism</h3>
             <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
-            <a className='hover-underline-animation' href='#'>Learn More</a>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
        
 
@@ -206,7 +206,7 @@ export default function Home() {
       />
           <h3>The DVST Wallet</h3>
             <p>A cross chain wallet allowing for comprehensive onboarding of users regardless of what they want to buy or which chain it is on. No bridges, no wrapped tokens, and no additional blockchains.</p>
-            <a className='hover-underline-animation' href='#'>Learn More</a>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div> 
 
           <div className='card6'>
@@ -220,7 +220,7 @@ export default function Home() {
       />
           <h3>Post Quantum Secure Ecosystem</h3>
             <p>Protecting users from coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space with a combination of cryptography and tokenomics.</p>
-            <a className='hover-underline-animation' href='#'>Learn More</a>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
    
