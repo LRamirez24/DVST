@@ -189,7 +189,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>Post Quantum Secure</h3>
-            <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space.</p>
+            <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
@@ -211,7 +211,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>The DVST Exchange</h3>
-            <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way. It is the future of crypto technology.</p>
+            <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
@@ -225,7 +225,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
           <h3>The DVST Wallet</h3>
-            <p>A cross chain wallet allowing for comprehensive onboarding of users regardless of what they want to buy or which chain it is on. No bridges, no wrapped tokens, and no additional blockchains.</p>
+            <p>A cross chain wallet allowing for comprehensive onboarding of users regardless of what they want to buy or which chain it is on.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div> 
 
