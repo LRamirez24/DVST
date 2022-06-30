@@ -117,7 +117,7 @@ header a {
 }
 
 header a:hover {
-  color: #640BDB;
+  color: #7A00A5;
   
 }
 
@@ -154,18 +154,18 @@ header a:hover {
 
 .title-color2{
   transition: all 0.3s ease-in-out;
-  color: #640BDB;
+  color: #7A00A5;
   
 }
 
 
 
 .title-color:hover{
-  color: #640BDB;
+  color: #7A00A5;
 }
 
 .title-color2:hover{
-  color: #640BDB;
+  color: #7A00A5;
 }
 
 
@@ -185,7 +185,7 @@ margin-top: 2rem;
   /* max-width: 74rem; */
   justify-content: center;
   align-items: center;
-  margin-top: -2rem;
+  margin-top: 3rem;
   padding-left: 4rem;
   /* padding-left: 4rem; */
   /* transform: rotate(2deg); */
@@ -233,13 +233,13 @@ margin-top: 2rem;
 
 .button-main:hover {
   color: #F2F2F2;
-  border: 1px solid #640BDB;
+  border: 1px solid #7A00A5;
 }
 
 .button-main:before {
   content: "";
   position: absolute;
-  background: #640BDB;
+  background: #7A00A5;
   bottom: 0;
   left: 0;
   right: 0;
@@ -278,13 +278,13 @@ margin-top: 2rem;
 
 .button-main2:hover {
   color: #F2F2F2;
-  border: 1px solid #640BDB;
+  border: 1px solid #7A00A5;
 }
 
 .button-main2:before {
   content: "";
   position: absolute;
-  background: #640BDB;
+  background: #7A00A5;
   bottom: 0;
   left: 0;
   right: 0;
@@ -381,7 +381,7 @@ transition: all .2s ease-in-out;
 }
 
 .cards a:hover {
- color: #640BDB;
+ color: #7A00A5;
 }
 
 .hover-underline-animation{
@@ -396,7 +396,7 @@ transition: all .2s ease-in-out;
   height: 2px;
   bottom: -0.6rem;
   left: 0;
-  background-color: #640BDB;
+  background-color: #7A00A5;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -418,7 +418,7 @@ transition: all .2s ease-in-out;
   height: 2px;
   bottom: 1.2rem;
   left: 0;
-  background-color: #640BDB;
+  background-color: #7A00A5;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -833,7 +833,7 @@ ul{
 }
 
 .learn-section li:hover {
-  color: #640BDB;
+  color: #7A00A5;
 }
 
 
@@ -858,8 +858,8 @@ ul{
 } */
 
 .button-footer{
-border: 1px solid #640BDB;
-background: #640BDB;
+border: 1px solid #7A00A5;
+background: #7A00A5;
 border-radius: 8px;
 padding: 1.6rem 3.2rem;
 transition: all 0.3s linear;
@@ -922,8 +922,8 @@ margin-right: 1.6rem;
 
 .subscribe-button:hover {
   color: #F2F2F2;
-  border: 1px solid #640BDB;
-  background: #640BDB;
+  border: 1px solid #7A00A5;
+  background: #7A00A5;
 
   
 }

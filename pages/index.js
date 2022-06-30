@@ -4,17 +4,17 @@ import Image from 'next/image'
 import utilStyles from '../styles/Home.module.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import icon from '../public/images/arrow-4.svg'
+import icon from '../public/images/arrow.svg'
 import arrow from '../public/images/arrow-large.svg'
-import icon2 from '../public/images/book-3.svg'
-import icon3 from '../public/images/money-2.svg'
+import icon2 from '../public/images/book.svg'
+import icon3 from '../public/images/money.svg'
 import icon4 from '../public/images/alert.svg'
-import icon5 from '../public/images/wallet-2.svg'
+import icon5 from '../public/images/wallet.svg'
 import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import man from '../public/images/drip.svg'
+import man from '../public/images/large-logo.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -161,11 +161,47 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
             <h3>Cross-Chain Portability</h3>
-            <p>the cryptographic primitives embedded into the SDK that allow for the non-custodial transfer of assets between parties regardless of their initial blockchains.</p>
+            <p>The cryptographic primitives embedded into the SDK that allow for the non-custodial transfer of assets between parties regardless of their initial blockchains. No bridges, no wrapped tokens, and no additional blockchains.</p>
           {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
           <div className='card2'>
+          <Image
+        src={icon3}
+        alt="Picture of the Icon"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+          <h3>Transaction Fee Rebate Mechanism</h3>
+            <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+          </div>
+
+          <div className='card3'>
+              <Image
+        src={icon4}
+        alt="Picture of the Icon"
+        // width={500} automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
+          <h3>Post Quantum Secure</h3>
+            <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space.</p>
+            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+          </div>
+
+
+        
+
+  
+       
+
+          <div className='center-card'>
+
+          <div className='card5'>
           <Image
         src={icon2}
         alt="Picture of the Icon"
@@ -179,23 +215,7 @@ export default function Home() {
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
-          <div className='card3'>
-          <Image
-        src={icon3}
-        alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      />
-          <h3>Transaction Fee Rebate Mechanism</h3>
-            <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
-          </div>
-       
-
-          <div className='center-card'>
-            <div className='card5'>
+            <div className='card6'>
               <Image
         src={icon5}
         alt="Picture of the Icon"
@@ -209,19 +229,9 @@ export default function Home() {
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div> 
 
-          <div className='card6'>
-              <Image
-        src={icon4}
-        alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
-      />
-          <h3>Post Quantum Secure</h3>
-            <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing. DVST has solved the most fundamental problems in the blockchain space.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
-          </div>
+      
+
+     
 
    
 
