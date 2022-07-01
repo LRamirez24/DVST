@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import logo from '../public/images/logo-purple.svg'
+import logo from '../public/images/logo-mid.svg'
 import logo2 from '../public/images/logo-dvst-small.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
+
 
 export default function Nav() {
   const variants = {
@@ -27,20 +28,34 @@ export default function Nav() {
     variants={variants}>
         <header>
           <div className='logo'>
-          <Link href="/">
-            <a> 
-            <Image 
-        src={logo}
+     
+            <Image
+        src={logo2}
         alt="Picture of the Logo"
         // width={500} automatically provided
         // height={500} automatically provided
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
+          </div>
+
+
+          <div className='logo-nav'>
+      
+
+        <Link href="/">
+            <a> 
+            <Image 
+            src={logo}
+            alt="Picture of the Logo"
+            // width={500} automatically provided
+            // height={500} automatically provided
+            // blurDataURL="data:..." automatically provided
+            // placeholder="blur" // Optional blur-up while loading
+            />
             </a>
             </Link>
-     
-          </div>
+            </div>
           
           
         {/* <nav>
