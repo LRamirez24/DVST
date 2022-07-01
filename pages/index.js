@@ -91,7 +91,7 @@ export default function Home() {
       <div className='main-text'>
         <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
         <p>
-        A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange.
+        A Decentralized, Cross-Chain, Post Quantum Secure Exchange<br></br> Ecosystem.
         </p>
         {/* <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
@@ -119,7 +119,7 @@ export default function Home() {
    
 
 
-<div className='main-image'>
+{/* <div className='main-image'>
 <Image className='robot'
         src={man}
         alt="Picture of the Robot"
@@ -130,12 +130,13 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
       
-</div>
+</div> */}
+
         </motion.div>
       </section>
       
       <section>
-      <motion.div
+      {/* <motion.div
     initial="hidden"
     animate="visible"
     variants={variants2}>  
@@ -144,7 +145,7 @@ export default function Home() {
         <h2 className='middle-heading'>The best way to transact digitally<br></br> in the quantum age..</h2>
         </div>
 
-        </motion.div>
+        </motion.div> */}
 
 <div className='core-products'>
 <h2>Core Innovations:</h2>

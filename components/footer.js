@@ -32,7 +32,7 @@ export default function Footer() {
     variants={variants}>
         <footer>
         <div className='footer-section'>
-        <p className='footer-title'>Experience the future of<br></br> peer to peer finance.</p>
+        <p className='footer-title'>The best way to transact digitally<br></br> in the quantum age..</p>
         <a href="#" className='button-footer'>Get Updates</a>
         
         </div>
