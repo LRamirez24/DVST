@@ -89,7 +89,7 @@ export default function Home() {
     variants={variants}>  
 
       <div className='main-text'>
-        <h1><span className='title-color'>Quantum</span><br></br> <span className='title-color2'>Finance</span></h1>
+        <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1>
         <p>
         A Decentralized, Cross-Chain, Post Quantum Secure Exchange<br></br> Ecosystem.
         </p>
@@ -97,7 +97,7 @@ export default function Home() {
         <a href="#" className='button-main'>Join Now</a>
         <a href="#" className='button-main2'>More Info</a>
         </div> */}
-        <div className='arrow'>
+        {/* <div className='arrow'>
         <Image className='robot'
         src={arrow}
         alt="Picture of the arrow"
@@ -107,7 +107,7 @@ export default function Home() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-        </div>
+        </div> */}
         </div> 
         
         </motion.div>

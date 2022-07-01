@@ -29,7 +29,7 @@ export default function Nav() {
           <div className='logo'>
           <Link href="/">
             <a> 
-            <Image
+            <Image 
         src={logo}
         alt="Picture of the Logo"
         // width={500} automatically provided

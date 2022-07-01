@@ -47,7 +47,7 @@ a {
 }
 
 h1{
-  font-size: 15rem;
+  font-size: 10.4rem;
   font-weight: 900;
   line-height: 90%;
   letter-spacing: 0.1;
@@ -142,16 +142,16 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  margin-top: 2rem;
-  justify-content: center;
-  align-items: center;
+  margin-top: 8rem;
+  /* justify-content: center; */
+  /* align-items: center; */
 
   /* margin-top: -80px; */
 }
 
 .title-color{
   transition: all 0.3s ease-in-out;
-  color: #7A00A5; 
+  /* color: #7A00A5;  */
   
 }
 
@@ -1164,6 +1164,9 @@ margin-right: 1.6rem;
     }
     br{
       display: none;
+    }
+    .logo{
+      max-width: 14rem;
     }
     .arrow{
       display: none;
