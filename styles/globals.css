@@ -144,7 +144,7 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  margin-top: 6rem;
+  margin-top: 4rem;
   /* justify-content: center; */
   /* align-items: center; */
 
@@ -191,8 +191,8 @@ margin-top: 2rem;
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
-  /* padding-left: 4rem; */
-  margin-left: 2rem;
+  padding-left: 4rem;
+  margin-left: -4rem;
   /* transform: rotate(2deg); */
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -953,7 +953,7 @@ margin-right: 1.6rem;
 /* Large */
 @media only screen and (max-width: 2400px) {
   .main-image{
-    max-width: 70rem;
+    max-width: 60rem;
     
     
   }
@@ -1205,10 +1205,10 @@ margin-right: 1.6rem;
     }
     .main-image{
       position: absolute;
-      top: 65%;
+      top: 72%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 200px;
+      width: 300px;
     }
 
     .middle-section{
@@ -1272,7 +1272,8 @@ margin-right: 1.6rem;
         padding-top: 1rem;
       }
       .main-image{
-        top: 77%;
+        top: 78%;
+        width: 250px;
       }
       .middle-section{
         padding-top: 0rem;
