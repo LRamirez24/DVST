@@ -14,7 +14,7 @@ import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import man from '../public/images/large-logo.svg'
+import man from '../public/images/space.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -89,9 +89,9 @@ export default function Home() {
     variants={variants}>  
 
       <div className='main-text'>
-        <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1>
+        <h1><span className='title-color'>Quantum <br></br></span><span className='title-color2'>Finance</span></h1>
         <p>
-        A Decentralized, Cross-Chain, Post Quantum Secure Exchange<br></br> Ecosystem.
+        A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange Ecosystem.
         </p>
         {/* <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
@@ -119,7 +119,7 @@ export default function Home() {
    
 
 
-{/* <div className='main-image'>
+<div className='main-image'>
 <Image className='robot'
         src={man}
         alt="Picture of the Robot"
@@ -130,7 +130,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
       
-</div> */}
+</div>
 
         </motion.div>
       </section>
