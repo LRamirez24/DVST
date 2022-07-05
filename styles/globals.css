@@ -1272,7 +1272,7 @@ margin-right: 1.6rem;
         padding-top: 1rem;
       }
       .main-image{
-        top: 84%;
+        top: 78%;
         width: 250px;
       }
       .middle-section{
@@ -1285,6 +1285,13 @@ margin-right: 1.6rem;
         padding: 0px 4rem;
       }
       }
+
+      @media only screen and (max-width: 350px) {
+        .main-image{
+          top: 85%;
+          width: 200px;
+        }
+        }
 
 
       
