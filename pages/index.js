@@ -89,7 +89,7 @@ export default function Home() {
     variants={variants}>  
 
       <div className='main-text'>
-        <h1><span className='title-color'>Quantum <br></br></span><span className='title-color2'>Finance</span></h1>
+        <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1>
         <p>
         A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange Ecosystem.
         </p>
@@ -181,9 +181,6 @@ export default function Home() {
             <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
-          
-
-
 
           <div className='card3'>
               <Image
@@ -198,6 +195,21 @@ export default function Home() {
             <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
+          
+
+
+
+  
+
+      
+
+
+        
+
+  
+       
+
+          <div className='center-card'>
 
           <div className='card4'>
           <Image
@@ -213,17 +225,9 @@ export default function Home() {
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
-
-        
-
-  
-       
-
-          <div className='center-card'>
-
     
 
-            <div className='card6'>
+            <div className='card5'>
               <Image
         src={icon5}
         alt="Picture of the Icon"
