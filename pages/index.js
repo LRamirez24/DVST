@@ -4,17 +4,17 @@ import Image from 'next/image'
 import utilStyles from '../styles/Home.module.css';
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import icon from '../public/images/arrow.svg'
+import icon from '../public/images/arrow-brand.svg'
 import arrow from '../public/images/arrow-large.svg'
-import icon2 from '../public/images/book.svg'
-import icon3 from '../public/images/money.svg'
-import icon4 from '../public/images/alert.svg'
-import icon5 from '../public/images/wallet.svg'
+import icon2 from '../public/images/book-brand.svg'
+import icon3 from '../public/images/money-brand.svg'
+import icon4 from '../public/images/alert-brand.svg'
+import icon5 from '../public/images/wallet-brand.svg'
 import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import man from '../public/images/space.svg'
+import man from '../public/images/hand.png'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -77,7 +77,7 @@ export default function Home() {
       
    
         
-      <Background />
+      {/* <Background /> */}
       <Nav />
       
      
@@ -119,7 +119,7 @@ export default function Home() {
    
 
 
-<div className='main-image'>
+{/* <div className='main-image'>
 <Image className='robot'
         src={man}
         alt="Picture of the Robot"
@@ -130,9 +130,7 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
       
-</div>
-
-
+</div> */}
 
         </motion.div>
       </section>
@@ -168,6 +166,8 @@ export default function Home() {
           {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
+      
+
           <div className='card2'>
           <Image
         src={icon3}
@@ -181,6 +181,9 @@ export default function Home() {
             <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
+          
+
+
 
           <div className='card3'>
               <Image
@@ -196,15 +199,7 @@ export default function Home() {
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
 
-
-        
-
-  
-       
-
-          <div className='center-card'>
-
-          <div className='card5'>
+          <div className='card4'>
           <Image
         src={icon2}
         alt="Picture of the Icon"
@@ -217,6 +212,16 @@ export default function Home() {
             <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way.</p>
             {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
           </div>
+
+
+        
+
+  
+       
+
+          <div className='center-card'>
+
+    
 
             <div className='card6'>
               <Image

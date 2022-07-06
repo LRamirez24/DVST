@@ -16,13 +16,13 @@ body {
   /* font-family: 'Inter', sans-serif; */
   font-family: 'Satoshi', sans-serif;
   font-size: 1.6rem;
-  background-color: #F2F2F2;
+  background-color: #2C2D30;
   line-height: 1.6;
   /* height: 100vh; */
   color: #F2F2F2;
   /* background-image: url('../public/images/back.jpg'); */
   /* background-color: #141414; */
-  background: #0D0D0D;
+  /* background: #0D0D0D; */
   /* background: -moz-linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
   background: linear-gradient(90deg, rgba(42,0,103,1) 0%, rgba(18,0,45,1) 60%, rgba(0,0,0,1) 100%);
@@ -47,9 +47,9 @@ a {
 }
 
 h1{
-  font-size: 15rem;
+  font-size: 10.4rem;
   font-weight: 900;
-  line-height: 90%;
+  line-height: 110%;
   letter-spacing: 0.1;
 }
 
@@ -122,7 +122,7 @@ header a {
 }
 
 header a:hover {
-  color: #7A00A5;
+  color: #7B00A5;
   
 }
 
@@ -147,7 +147,7 @@ header a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 10.4rem;
   /* justify-content: center; */
   /* align-items: center; */
 
@@ -169,11 +169,11 @@ header a:hover {
 
 
 .title-color:hover{
-  color: #7A00A5;
+  color: #7B00A5;;
 }
 
 .title-color2:hover{
-  color: #7A00A5;
+  color: #7B00A5;;
 }
 
 
@@ -187,15 +187,16 @@ header a:hover {
 font-size: 2rem;
 font-weight: 300;
 margin-top: 2rem;
+color: #d1d1d1;
 }
 
 .main-image{
   /* max-width: 74rem; */
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   padding-left: 4rem;
-  margin-left: -4rem;
+  /* margin-left: 20rem; */
   /* transform: rotate(2deg); */
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -245,13 +246,13 @@ margin-top: 2rem;
 
 .button-main:hover {
   color: #F2F2F2;
-  border: 1px solid #7A00A5;
+  border: 1px solid #7B00A5;
 }
 
 .button-main:before {
   content: "";
   position: absolute;
-  background: #7A00A5;
+  background: #7B00A5;;
   bottom: 0;
   left: 0;
   right: 0;
@@ -290,13 +291,13 @@ margin-top: 2rem;
 
 .button-main2:hover {
   color: #F2F2F2;
-  border: 1px solid #7A00A5;
+  border: 1px solid #7B00A5;;
 }
 
 .button-main2:before {
   content: "";
   position: absolute;
-  background: #7A00A5;
+  background: #7B00A5;;
   bottom: 0;
   left: 0;
   right: 0;
@@ -354,9 +355,17 @@ margin-top: 2rem;
 
 .core-products{
   display: flex;
-  margin-top: 10rem;
+  /* margin-top: 15rem; */
   padding: 0px 8rem;
+  justify-content: center;
+  align-items: center;
+
   /* color: #640BDB; */
+}
+
+.core-products h2{
+  font-size: 6.4rem;
+  margin-bottom: 4rem;
 }
 
 .cards{
@@ -367,10 +376,11 @@ margin-top: 2rem;
   flex-wrap: wrap;
   /* color: #0D0D0D; */
   padding: 0px 8rem;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 4rem;
   margin-bottom: 15rem;
 transition: all .2s ease-in-out;
+row-gap: 4rem;
 
   /* background-color: #F2F2F2; */
 
@@ -393,7 +403,7 @@ transition: all .2s ease-in-out;
 }
 
 .cards a:hover {
- color: #7A00A5;
+ color: #7B00A5;;
 }
 
 .hover-underline-animation{
@@ -408,7 +418,7 @@ transition: all .2s ease-in-out;
   height: 2px;
   bottom: -0.6rem;
   left: 0;
-  background-color: #7A00A5;
+  background-color: #7B00A5;;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -430,7 +440,7 @@ transition: all .2s ease-in-out;
   height: 2px;
   bottom: 1.2rem;
   left: 0;
-  background-color: #7A00A5;
+  background-color: #7B00A5;;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -466,23 +476,24 @@ transition: all .2s ease-in-out;
 
 
 
+
 .card1{
-  width: 30%;
+  width: 48%;
   /* width: 22%; */
   /* background-color: transparent; */
   /* border: 1px solid; */
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   border-radius: 12px;
   transition: all .2s ease-in-out;
 
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 
 .card1:hover {
@@ -493,21 +504,22 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 
 .card2{
-  width: 30%;
+  width: 48%;
   /* background-color: white; */
   /* background-color: transparent;
   border: 1px solid; */
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   border-radius: 12px;
   transition: all .2s ease-in-out;
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
+  /* background: rgba( 255, 255, 255, 0.15 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card2:hover {
   transform: scale(1.1);
@@ -538,22 +550,23 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 } */
 
 .card3{
-  width: 30%;
+  width: 48%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
   border: 1px solid; */
   /* padding: 10px; */
   box-shadow: 5px 10px transparent;
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   border-radius: 12px;
   transition: all .2s ease-in-out;
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
+  /* background: rgba( 255, 255, 255, 0.15 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card3:hover {
   transform: scale(1.1);
@@ -585,7 +598,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 } */
 
 .card4{
-  width: 30%;
+  width: 48%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
@@ -593,15 +606,16 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: white;
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   border-radius: 12px;
   transition: all .2s ease-in-out;
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
+  /* background: rgba( 255, 255, 255, 0.15 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card4:hover {
   transform: scale(1.1);
@@ -612,7 +626,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
+  width: 100%;
 }
 
 .card5{
@@ -627,17 +642,18 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   /* margin-top: 6rem; */
   
   border-radius: 12px;
   transition: all .2s ease-in-out;
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
+  /* background: rgba( 255, 255, 255, 0.15 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 margin-right: 6rem;
 }
 .card5:hover {
@@ -647,7 +663,7 @@ margin-right: 6rem;
 
 
 .card6{
-  width: 50%;
+  width: 100%;
   /* background-color: white; */
   /* background-color: transparent; */
   /* background-color: transparent;
@@ -658,16 +674,17 @@ margin-right: 6rem;
   
   /* padding: 10px; */
   /* box-shadow: 5px 10px; */
-  padding: 3.2rem 1.6rem;
+  padding: 3.2rem 3.2rem;
   /* margin-top: 6rem; */
   border-radius: 12px;
   transition: all .2s ease-in-out;
-  background: rgba( 255, 255, 255, 0.15 );
+  background: #35363A;
+  /* background: rgba( 255, 255, 255, 0.15 ); */
 /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
-backdrop-filter: blur( 5px );
--webkit-backdrop-filter: blur( 5px );
+/* backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px ); */
 /* border-radius: 10px; */
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+/* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card6:hover {
   transform: scale(1.1);
@@ -791,7 +808,7 @@ margin-bottom: 1.6rem;
 
 .footer-main{
   padding: 8rem 8rem;
-  background-color: #0D0D0D;
+  background-color: #222222;
 }
 
 ul{
@@ -845,7 +862,7 @@ ul{
 }
 
 .learn-section li:hover {
-  color: #7A00A5;
+  color: #7B00A5;
 }
 
 
@@ -870,8 +887,8 @@ ul{
 } */
 
 .button-footer{
-border: 1px solid #7A00A5;
-background: #7A00A5;
+border: 1px solid #7B00A5;;
+background: #7B00A5;;
 border-radius: 8px;
 padding: 1.6rem 3.2rem;
 transition: all 0.3s linear;
@@ -942,8 +959,8 @@ margin-right: 1.6rem;
 
 .subscribe-button:hover {
   color: #F2F2F2;
-  border: 1px solid #7A00A5;
-  background: #7A00A5;
+  border: 1px solid #7B00A5;;
+  background: #7B00A5;;
 
   
 }
@@ -964,7 +981,7 @@ margin-right: 1.6rem;
 /* Large */
 @media only screen and (max-width: 2400px) {
   .main-image{
-    max-width: 60rem;
+    max-width: 55rem;
     
     
   }
@@ -1068,19 +1085,19 @@ margin-right: 1.6rem;
   }
   .card1{
     width: 80%;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .card2{
     width: 80%;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .card3{
     width: 80%;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .card4{
     width: 80%;
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .card5{
     margin-top: 0rem;
@@ -1088,7 +1105,7 @@ margin-right: 1.6rem;
     margin-right: 0rem;
   }
   .card6{
-    margin-top: 6rem;
+    margin-top: 0rem;
     width: 80%;
   }
   .how-section{
