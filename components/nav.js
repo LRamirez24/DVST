@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '../public/images/logo-mid.svg'
-import logo2 from '../public/images/logo-dvst-small.svg'
+import logo2 from '../public/images/logo-white-small.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 

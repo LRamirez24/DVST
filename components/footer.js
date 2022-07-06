@@ -5,7 +5,7 @@ import github from '../public/images/github.svg'
 import twitter from '../public/images/twitter.svg'
 import youtube from '../public/images/youtube.svg'
 import instagram from '../public/images/instagram.svg'
-import logo2 from '../public/images/logo-dvst-small.svg'
+import logo2 from '../public/images/logo-white-small.svg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 
@@ -162,7 +162,7 @@ All rights reserved</p>
       </div>
    
       <div className='newsletter'>
-      <Image
+      <Image className='footer-logo2'
         src={logo2}
         alt="Picture of the Logo2"
         // width={500} automatically provided
