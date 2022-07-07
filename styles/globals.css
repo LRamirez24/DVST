@@ -1258,9 +1258,9 @@ margin-right: 1.6rem;
     h1{
       font-size: 3.2rem;
     }
-    .jumbo p{
+    /* .jumbo p{
       font-size: 1.6rem;
-    }
+    } */
     br{
       display: none;
     }
