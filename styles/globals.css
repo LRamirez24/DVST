@@ -1256,7 +1256,7 @@ margin-right: 1.6rem;
       margin-left: 2rem;
     }
     h1{
-      font-size: 6.4rem;
+      font-size: 3.6rem;
     }
     br{
       display: none;
@@ -1280,6 +1280,10 @@ margin-right: 1.6rem;
       margin-top: -9rem;
       background-attachment: initial;
        /* background-image: url('../public/images/waves2.svg'); */
+    }
+
+    .jumbo h1 {
+      margin-top: 20rem;
     }
    
     .main-text{
@@ -1308,7 +1312,7 @@ margin-right: 1.6rem;
     }
 
     .core-products h2{
-      font-size: 4rem;
+      font-size: 3.6rem;
       margin-bottom: 0rem;
     }
     
@@ -1370,7 +1374,7 @@ margin-right: 1.6rem;
         padding-top: 1rem;
       }
       .jumbo h1{
-        margin-top: 12rem;
+        margin-top: 15rem;
         /* font-family: 'Inter', sans-serif; */
       }
       /* .jumbo{
