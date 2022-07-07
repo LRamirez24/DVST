@@ -33,7 +33,7 @@ export default function Footer() {
         <footer>
         <div className='footer-section'>
         <p className='footer-title'>The best way to transact digitally<br></br> in the quantum age..</p>
-        <a href="#" className='button-footer'>Get Updates</a>
+        {/* <a href="#" className='button-footer'>Get Updates</a> */}
         
         </div>
         <hr></hr>
@@ -53,6 +53,8 @@ export default function Footer() {
    
 <p className='footer-text1'>© 2022 DVST
 All rights reserved</p>
+
+{/* 
 <ul className='social-icons'>
 
         <li>   
@@ -131,7 +133,7 @@ All rights reserved</p>
           
         </li>
       
-</ul>
+</ul> */}
 
     </div>
     <div>
@@ -144,8 +146,8 @@ All rights reserved</p>
       
       </div>
       <div>
-      <p className='footer-text'>Learn More</p>
-      <ul className='learn-section'>
+      {/* <p className='footer-text'>Learn More</p> */}
+      {/* <ul className='learn-section'>
       <a href="#">
         <li className='hover-underline-animation2'>About DVST</li>
         </a>
@@ -158,7 +160,7 @@ All rights reserved</p>
         <a href="#">
         <li className='hover-underline-animation2'>Privacy Policy</li>
         </a>
-      </ul>    
+      </ul>     */}
       </div>
    
       <div className='newsletter'>
