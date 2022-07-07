@@ -133,7 +133,21 @@ export default function Home() {
 </div> */}
 
         </motion.div>
+
+       
+     
+        <div className='skewed'></div>
+        
       </section>
+
+      
+
+
+
+      
+
+
+    
       
       <section>
       {/* <motion.div
