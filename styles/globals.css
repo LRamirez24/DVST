@@ -139,8 +139,8 @@ header a:hover {
 /* Jumbo */
 
 .jumbo{
-  background-image: url('../public/images/waves.svg');
-  min-height: 90vh;
+  background-image: url('../public/images/waves2.svg');
+  min-height: 80vh;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -383,7 +383,7 @@ color: #d1d1d1;
 
 .core-products{
   display: flex;
-  margin-top: 15rem;
+  margin-top: 6rem;
   padding: 0px 8rem;
   justify-content: center;
   align-items: center;
@@ -393,7 +393,7 @@ color: #d1d1d1;
 
 .core-products h2{
   font-size: 6.4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .cards{
@@ -1301,7 +1301,7 @@ margin-right: 1.6rem;
     }
 
     .core-products{
-      margin-top: 8rem;
+      margin-top: 6rem;
     }
 
     .core-products h2{

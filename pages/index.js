@@ -65,6 +65,20 @@ export default function Home() {
     },
   }
 
+  const variants4 = {
+    hidden: { 
+      opacity: 0 
+    },
+    visible: { 
+      scale: 1,
+      opacity: 1,
+    transition: {
+      delay: 1.4,
+      duration: 1.4
+    }
+    },
+  }
+
   
   
   return (
@@ -160,10 +174,21 @@ export default function Home() {
         </div>
 
         </motion.div> */}
+    <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={variants4}> 
 
 <div className='core-products'>
 <h2>Core Innovations:</h2>
 </div>
+</motion.div>
+
+
+<motion.div
+    initial="hidden"
+    animate="visible"
+    variants={variants4}> 
 
         <div className='cards'>
           <div className='card1'>
@@ -266,6 +291,7 @@ export default function Home() {
 
 
         </div>
+        </motion.div>
       </section>
       {/* <section>
         <div className='how-section'>
