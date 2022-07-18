@@ -532,7 +532,7 @@ row-gap: 6rem;
 }
 
 .card1:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba(39, 11, 151, 0.37); */
 }
 
@@ -557,7 +557,7 @@ row-gap: 6rem;
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card2:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 }
 
@@ -604,7 +604,7 @@ row-gap: 6rem;
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card3:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 }
 
@@ -663,7 +663,7 @@ row-gap: 6rem;
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card4:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 }
 
@@ -694,7 +694,7 @@ row-gap: 6rem;
 /* margin-right: 6rem; */
 }
 .card5:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 }
 
@@ -724,7 +724,7 @@ row-gap: 6rem;
 /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
 }
 .card6:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
   /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
 }
 
