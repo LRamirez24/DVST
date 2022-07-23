@@ -5,7 +5,7 @@ import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
 
 const name = 'Luis Ramirez';
-export const siteTitle = 'Next.js Crypto Website';
+export const siteTitle = 'DVST Quantum Finance';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,9 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content=" DVST Quantum Finance
+          A Decentralized, Cross-Chain, Post Quantum
+          Secure Exchange Ecosystem. Learn More Here"
         />
         <meta
           property="og:image"
