@@ -37,13 +37,7 @@ export default function Nav() {
         // blurDataURL="data:..." automatically provided
         // placeholder="blur" // Optional blur-up while loading
       />
-          </div>
-
-
-          <div className='logo-nav'>
-      
-
-        <Link href="/">
+          <Link href="/">
             <a> 
             <Image 
             src={logo}
@@ -55,6 +49,13 @@ export default function Nav() {
             />
             </a>
             </Link>
+
+          </div>
+
+
+          <div className='logo-nav'>
+          <p>—  Full Website Coming Soon</p>
+            
             </div>
           
           

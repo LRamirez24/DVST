@@ -14,7 +14,7 @@ import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import man from '../public/images/hand.png'
+import future from '../public/images/future.jpg'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -102,11 +102,25 @@ export default function Home() {
     animate="visible"
     variants={variants}>  
 
+
+
+
+    
+
       <div className='main-text'>
-        <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1>
-        <p>
+
+        {/* <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1> */}
+        <h1>Foundational Software<br></br> for the Quantum<br></br> Age.</h1>
+        <div className='jumbo-image'>
+        <Image className='future'
+        src={future}
+        alt="Picture of the future"       
+      />
+        </div>
+        {/* <p>
         A Decentralized, Cross-Chain, Post Quantum<br></br> Secure Exchange Ecosystem.
-        </p>
+        </p> */}
+        <p>Enter DVST, a fully decentralized on-chain and off-chain protocol<br></br> that is post quantum secure with rewards based tokenomics built<br></br> to empower.</p>
         {/* <div className='buttons-main'>
         <a href="#" className='button-main'>Join Now</a>
         <a href="#" className='button-main2'>More Info</a>
@@ -122,7 +136,15 @@ export default function Home() {
         // placeholder="blur" // Optional blur-up while loading
       />
         </div> */}
+            
+  
+        
         </div> 
+
+
+     
+    
+   
         
         </motion.div>
       
@@ -153,6 +175,29 @@ export default function Home() {
         <div className='skewed'></div>
         
       </section>
+
+      <motion.div
+    initial="hidden"
+    animate="visible"
+    variants={variants4}> 
+      <div className='email-main'>
+
+      <div className='stay-updated'>
+      <p className='stay-text'>Stay Updated</p>
+      <p className='noty'>get notified when we launch</p>
+      </div>
+      
+
+      <div className='im-in'>
+      <form action="/" method="POST">
+        <input type="email" name="name" placeholder="E-mail"></input>
+        <button className='main-button'>I'M IN!</button>
+        </form>
+      </div>
+
+      </div>
+
+      </motion.div>
 
       
 
