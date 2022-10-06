@@ -14,7 +14,7 @@ import vector from '../public/images/bitcoin.svg'
 import number from '../public/images/number-purple1-2.svg'
 import number2 from '../public/images/number-purple2-2.svg'
 import number3 from '../public/images/number-purple3-2.svg'
-import future from '../public/images/future.jpg'
+import future from '../public/images/future.png'
 import { motion } from "framer-motion"
 import Link from 'next/link'
 import Background from '../components/background';
@@ -110,7 +110,7 @@ export default function Home() {
       <div className='main-text'>
 
         {/* <h1><span className='title-color'>Quantum </span><span className='title-color2'>Finance</span></h1> */}
-        <h1>Foundational Software<br></br> for the Quantum<br></br> Age.</h1>
+        <h1>Foundational Software<br></br> for the Quantum Age.</h1>
         <div className='jumbo-image'>
         <Image className='future'
         src={future}
@@ -208,17 +208,8 @@ export default function Home() {
 
     
       
-      <section>
-      {/* <motion.div
-    initial="hidden"
-    animate="visible"
-    variants={variants2}>  
-        <div className='middle-section'>
-        <p>What is DVST?</p>
-        <h2 className='middle-heading'>The best way to transact digitally<br></br> in the quantum age..</h2>
-        </div>
-
-        </motion.div> */}
+      {/* <section>
+ 
     <motion.div
     initial="hidden"
     animate="visible"
@@ -240,14 +231,11 @@ export default function Home() {
           <Image
         src={icon}
         alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+      
       />
             <h3>Cross-Chain Portability</h3>
             <p>The cryptographic primitives embedded into the SDK that allow for the non-custodial transfer of assets between parties regardless of their initial blockchains. No bridges, no wrapped tokens, and no additional blockchains.</p>
-          {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+          
           </div>
 
       
@@ -256,28 +244,22 @@ export default function Home() {
           <Image
         src={icon3}
         alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+       
       />
           <h3>Transaction Fee Rebate Mechanism</h3>
             <p>The tokenomic mechanism that creates a new fiduciary reserve instrument which is used to reimburse the value of a transaction fee and ultimately pay users back.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+           
           </div>
 
           <div className='card3'>
               <Image
         src={icon4}
         alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+      
       />
           <h3>Post Quantum Secure</h3>
             <p>A cryptographic system protecting users from the coming regime of 320+ qubit quantum computing.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+           
           </div>
           
 
@@ -299,14 +281,11 @@ export default function Home() {
           <Image
         src={icon2}
         alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+    
       />
           <h3>The DVST Exchange</h3>
             <p>An on-chain decentralized exchange order book that utilizes the cryptographic primitives in a seamless way.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+           
           </div>
 
     
@@ -315,14 +294,11 @@ export default function Home() {
               <Image
         src={icon5}
         alt="Picture of the Icon"
-        // width={500} automatically provided
-        // height={500} automatically provided
-        // blurDataURL="data:..." automatically provided
-        // placeholder="blur" // Optional blur-up while loading
+     
       />
           <h3>The DVST Wallet</h3>
             <p>A cross chain wallet allowing for comprehensive onboarding of users regardless of what they want to buy or which chain it is on.</p>
-            {/* <a className='hover-underline-animation' href='#'>Learn More</a> */}
+           
           </div> 
 
       
@@ -337,7 +313,8 @@ export default function Home() {
 
         </div>
         </motion.div>
-      </section>
+      </section> */}
+
       {/* <section>
         <div className='how-section'>
           <div className='vector-image'>
@@ -432,7 +409,7 @@ Make funds visible in the marketplace by wrapping assets in the DVST protocol.</
 
         </div>
       </section> */}
-      <Footer />
+      {/* <Footer /> */}
       
       
     </Layout>
