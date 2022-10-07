@@ -86,7 +86,7 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta property="og:image" content={future}  />
+        
       </Head>
 
       
