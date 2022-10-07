@@ -37,6 +37,13 @@ export default function Layout({ children, home }) {
           Secure Exchange Ecosystem. Learn More Here"
         />
 
+        <meta name="twitter:card" content="summary"  />
+        <meta name="twitter:site" content="@DVST" />
+        <meta name="twitter:title" content="DVST Quantum Finance" />
+        <meta name="twitter:description" content="DVST Quantum Finance
+          A Decentralized, Cross-Chain, Post Quantum
+          Secure Exchange Ecosystem. Learn More Here" />
+
         <meta
           property="og:image"
           content="https://images.unsplash.com/photo-1627389955800-4afab384df17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
@@ -44,13 +51,8 @@ export default function Layout({ children, home }) {
 
         
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@DVST" />
-        <meta name="twitter:title" content="DVST Quantum Finance" />
-        <meta name="twitter:description" content="DVST Quantum Finance
-          A Decentralized, Cross-Chain, Post Quantum
-          Secure Exchange Ecosystem. Learn More Here" />
-        <meta name="twitter:image" content="https://images.unsplash.com/photo-1627389955800-4afab384df17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" />
+    
+       
 
         
 
