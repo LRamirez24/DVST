@@ -1913,16 +1913,36 @@ h1{
     }
     */
 
+    .jumbo-image{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(15%, -50%);
+        /* max-width: 74rem; */
+        /* justify-content: center;
+        align-items: center; */
+        /* margin-top: 4rem; */
+        /* padding-left: 4rem; */
+        /* margin-left: 20rem; */
+        /* transform: rotate(2deg); */
+       
+        transition: all 0.3s ease-in-out;
+        /* width: 40rem; */
+       z-index: 0;
+       opacity: 0.7;
+       
+    }
 
   .jumbo h1{
     margin-top: 10rem;
-    line-height: 130%;
+    line-height: 120%;
+    font-size: 4.6rem;
   }
 
   .jumbo p{
     /* margin-top: 2.4rem; */
     width: 85%;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   /* .jumbo p{
@@ -2052,13 +2072,37 @@ h1{
       margin-left: 7rem;
     }
 
+    .jumbo{
+      margin-top: 2rem;
+    }
+
+    .jumbo-image{
+      position: absolute;
+      top: 10%;
+      left: 30%;
+      transform: translate(15%, -50%);
+        /* max-width: 74rem; */
+        /* justify-content: center;
+        align-items: center; */
+        /* margin-top: 4rem; */
+        /* padding-left: 4rem; */
+        /* margin-left: 20rem; */
+        /* transform: rotate(2deg); */
+       
+        transition: all 0.3s ease-in-out;
+        /* width: 40rem; */
+       z-index: 0;
+       opacity: 0.7;
+       
+    }
+
     .jumbo h1{
       margin-top: 8rem;
       font-size: 4rem;
     }
 
     .jumbo p {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
 
     /* .stay-text{
@@ -2080,6 +2124,7 @@ h1{
 
     @media only screen and (max-width: 430px) {
       .email-main{
+        /* margin-top: 10rem; */
         margin-top: 2rem;
         width: 80%;
       }
@@ -2094,6 +2139,10 @@ h1{
         margin-top: 8rem;
         font-size: 4rem;
         line-height: 110%;
+      }
+
+      .jumbo p {
+        margin-top: 4rem;
       }
      
       }
@@ -2119,11 +2168,30 @@ h1{
       .jumbo{
         margin-top: 0rem;
       }
+      .jumbo-image{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        transform: translate(15%, -50%);
+          /* max-width: 74rem; */
+          /* justify-content: center;
+          align-items: center; */
+          /* margin-top: 4rem; */
+          /* padding-left: 4rem; */
+          /* margin-left: 20rem; */
+          /* transform: rotate(2deg); */
+         
+          transition: all 0.3s ease-in-out;
+          /* width: 40rem; */
+         z-index: 0;
+         opacity: 0.7;
+         
+      }
       .main-text{
         padding: 0rem 2rem;
       }
       .email-main{
-        margin-top: 6rem;
+        margin-top: 0rem;
       }
       .jumbo p{
         font-size: 1.2rem;
