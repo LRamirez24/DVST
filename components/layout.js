@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
           Secure Exchange Ecosystem. Learn More Here"
         />
 
-        <meta property="og:image" content={ball} />
+        <meta property="og:image" content={ball}  />
 
 
       </Head>
