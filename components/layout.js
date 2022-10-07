@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
-import ball from '../public/images/ball.jpg'
+import ball from '../public/images/ball.jpg';
 
 const name = 'Luis Ramirez';
 export const siteTitle = 'DVST Quantum Finance';
