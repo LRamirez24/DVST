@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
-import logo from '../public/images/logo-mid.svg'
+import ball from '../public/images/ball.jpg'
 
 const name = 'Luis Ramirez';
 export const siteTitle = 'DVST Quantum Finance';
@@ -15,10 +15,11 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/logo2.svg" />
         <meta
           name="description"
-          content=" DVST Quantum Finance
+          content="DVST Quantum Finance
           A Decentralized, Cross-Chain, Post Quantum
           Secure Exchange Ecosystem. Learn More Here"
         />
+
         {/* <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -28,17 +29,13 @@ export default function Layout({ children, home }) {
 
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content={logo} />
 
-        <meta property="og:url" content="your url" />
-        <meta property="og:type" content="website" />
+        
+
+        {/* <meta property="og:url" content="your url" />
+        <meta property="og:type" content="website" /> */}
       
-        <meta
-          property="og:title"
-          content="Social Media Preview Working?"
-        />
-
-     
+   
         <meta
           property="og:description"
           content="DVST Quantum Finance
@@ -46,9 +43,11 @@ export default function Layout({ children, home }) {
           Secure Exchange Ecosystem. Learn More Here"
         />
 
-       
-        
+        <meta property="og:image" content={ball} />
+
+
       </Head>
+
       
       <main>{children}</main>
     </div>
