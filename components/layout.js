@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/Home.module.css';
 import Link from 'next/link';
+import logo from '../public/images/logo-mid.svg'
 
 const name = 'Luis Ramirez';
 export const siteTitle = 'DVST Quantum Finance';
@@ -18,14 +19,35 @@ export default function Layout({ children, home }) {
           A Decentralized, Cross-Chain, Post Quantum
           Secure Exchange Ecosystem. Learn More Here"
         />
-        <meta
+        {/* <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
             siteTitle,
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-        />
+        /> */}
+
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content={logo} />
+
+        <meta property="og:url" content="your url" />
+        <meta property="og:type" content="website" />
+      
+        <meta
+          property="og:title"
+          content="Social Media Preview Working?"
+        />
+
+     
+        <meta
+          property="og:description"
+          content="DVST Quantum Finance
+          A Decentralized, Cross-Chain, Post Quantum
+          Secure Exchange Ecosystem. Learn More Here"
+        />
+
+       
+        
       </Head>
       
       <main>{children}</main>
