@@ -57,8 +57,8 @@ export default function Layout({ children, home }) {
 
         {/* <meta property="og:image" content={"https://images.unsplash.com/photo-1627645812426-67ce7b0a7a81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"}/> */}
 
-        <meta property="og:image" content="https://images.unsplash.com/photo-1627645812426-67ce7b0a7a81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"/>
-        
+        {/* <meta property="og:image" content="https://images.unsplash.com/photo-1627645812426-67ce7b0a7a81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"/>
+         */}
 
 
 
