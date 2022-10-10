@@ -191,11 +191,14 @@ export default function Home() {
       
 
       <div className='im-in'>
-      <form action="mailto:cole@dvst.io" method="POST">
-        <input type="email" name="E-Mail" placeholder="E-mail"></input>
-        <button className='main-button'>I'M IN!</button>
+
+      <form action="https://formsubmit.co/cole@dvst.io" method="POST">
+        <input type="email"  id="email" name="E-Mail" placeholder="E-mail" required></input>
+        
+        <button className='main-button' type='submit'>I'M IN!</button>
        
         </form>
+
       </div>
 
       </div>
