@@ -178,7 +178,7 @@ export default function Home() {
         
       </section>
 
-      <motion.div
+      {/* <motion.div
     initial="hidden"
     animate="visible"
     variants={variants4}> 
@@ -203,7 +203,7 @@ export default function Home() {
 
       </div>
 
-      </motion.div>
+      </motion.div> */}
 
       
 

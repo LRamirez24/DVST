@@ -53,10 +53,10 @@ export default function Nav() {
           </div>
 
 
-          <div className='logo-nav'>
+          {/* <div className='logo-nav'>
           <p>—  Full Website Coming Soon</p>
             
-            </div>
+            </div> */}
           
           
         {/* <nav>
